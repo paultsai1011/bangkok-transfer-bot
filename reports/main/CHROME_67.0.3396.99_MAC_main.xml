@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="0"
+            failures="1"
+            tests="2">
+
+  <testsuite name="main.main"
+    errors="0" failures="1" hostname="" id="" package="main" skipped="0"
+    tests="2" time="43.37" timestamp="Mon, 06 Aug 2018 09:28:05 GMT">
+  
+    <testcase name=" Main page test" classname="main.main" time="6.523" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Logout test" classname="main.main" time="36.84" assertions="2">
+
+      <failure message="logout btn check ok">    at Object.Logout test (/Users/paul/Documents/Nightwatch/backend/nightwatch_example/test/main/main.js:44:14)
+    at _combinedTickCallback (internal/process/next_tick.js:131:7)</failure>
+
+    
+    </testcase>
+  
+
+  
+
+  
+  </testsuite>
+</testsuites>

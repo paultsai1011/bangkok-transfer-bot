@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="2">
+
+  <testsuite name="main.main"
+    errors="1" failures="0" hostname="" id="" package="main" skipped="0"
+    tests="2" time="40.31" timestamp="Fri, 17 Aug 2018 05:16:55 GMT">
+  
+    <testcase name=" Test Start" classname="main.main" time="4.187" assertions="5">
+
+    
+
+    
+
+    
+
+    
+
+    
+    </testcase>
+  
+    <testcase name="Login" classname="main.main" time="36.12" assertions="3">
+
+    
+
+    
+<system-out>[[ATTACHMENT|C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\screenshots\main\main\Login_ERROR_Aug-17-2018-131732-GMT+0800.png]]</system-out>
+    
+    </testcase>
+  
+
+  
+    <system-err>
+      ERROR: Unable to locate element: &#34;#ctl00_ctl00_C_CW_btnConfirm&#34; using: css selector
+    at F.&lt;anonymous&gt; (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\test\main\main.js:44:22)
+    at F.Perform.command (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\node_modules\nightwatch\lib\api\client-commands\perform.js:58:14)
+    at Object.commandFn (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\node_modules\nightwatch\lib\core\api.js:287:24)
+    at AsyncTree.runCommand (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\node_modules\nightwatch\lib\core\queue.js:154:30)
+    at AsyncTree.runChildNode (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\node_modules\nightwatch\lib\core\queue.js:114:8)
+    at AsyncTree.walkDown (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\node_modules\nightwatch\lib\core\queue.js:80:10)
+    at AsyncTree.traverse (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\node_modules\nightwatch\lib\core\queue.js:73:8)
+    at Object.queueRunner [as run] (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\node_modules\nightwatch\lib\core\queue.js:216:18)
+    at Nightwatch.start (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\node_modules\nightwatch\lib\index.js:206:14)
+    at ClientManager.start (C:\Users\grantchiang\Documents\nightwatch\bank\nightwatch_example\node_modules\nightwatch\lib\runner\clientmanager.js:71:19)
+    </system-err>
+  
+
+  
+  </testsuite>
+</testsuites>

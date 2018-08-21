@@ -1,0 +1,93 @@
+14:14:33.714 INFO - Launching a standalone Selenium Server
+14:14:33.771 INFO - Java: Oracle Corporation 25.111-b14
+14:14:33.771 INFO - OS: Windows 7 6.1 amd64
+14:14:33.771 INFO - v2.53.1, with Core v2.53.1. Built from revision a36b8b1
+14:14:33.822 INFO - Driver class not found: com.opera.core.systems.OperaDriver
+14:14:33.822 INFO - Driver provider com.opera.core.systems.OperaDriver is not registered
+14:14:33.822 INFO - Driver provider org.openqa.selenium.safari.SafariDriver registration is skipped:
+registration capabilities Capabilities [{browserName=safari, version=, platform=MAC}] does not match the current platform VISTA
+14:14:33.822 INFO - Driver class not found: org.openqa.selenium.htmlunit.HtmlUnitDriver
+14:14:33.822 INFO - Driver provider org.openqa.selenium.htmlunit.HtmlUnitDriver is not registered
+14:14:33.885 INFO - RemoteWebDriver instances should connect to: http://127.0.0.1:4444/wd/hub
+14:14:33.885 INFO - Selenium Server is up and running
+14:14:34.085 INFO - Executing: [new session: Capabilities [{acceptSslCerts=true, name=Main\main, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]])
+14:14:34.118 INFO - Creating a new session for Capabilities [{acceptSslCerts=true, name=Main\main, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]
+Starting ChromeDriver 2.41.578737 (49da6702b16031c40d63e5618de03a32ff6c197e) on port 38549
+Only local connections are allowed.
+14:14:36.267 INFO - Done: [new session: Capabilities [{acceptSslCerts=true, name=Main\main, browserName=chrome, javascriptEnabled=true, chromeOptions={args=[start-fullscreen]}, platform=ANY}]]
+14:14:36.275 INFO - Executing: [get: https://ibanking.bangkokbank.com/SignOn.aspx])
+14:14:38.624 INFO - Done: [get: https://ibanking.bangkokbank.com/SignOn.aspx]
+14:14:38.629 INFO - Executing: [find elements: By.cssSelector: html])
+14:14:38.650 INFO - Done: [find elements: By.cssSelector: html]
+14:14:38.653 INFO - Executing: [get title])
+14:14:38.658 INFO - Done: [get title]
+14:14:38.661 INFO - Executing: [find elements: By.cssSelector: input[name="txtID"]])
+14:14:38.673 INFO - Done: [find elements: By.cssSelector: input[name="txtID"]]
+14:14:38.676 INFO - Executing: [is displayed: 1 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtID"]]])
+14:14:38.688 INFO - Done: [is displayed: 1 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtID"]]]
+14:14:38.691 INFO - Executing: [find elements: By.cssSelector: input[name="txtPwd"]])
+14:14:38.703 INFO - Done: [find elements: By.cssSelector: input[name="txtPwd"]]
+14:14:38.705 INFO - Executing: [is displayed: 2 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtPwd"]]])
+14:14:38.718 INFO - Done: [is displayed: 2 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtPwd"]]]
+14:14:40.724 INFO - Executing: [find element: By.cssSelector: input[name="txtID"]])
+14:14:40.737 INFO - Done: [find element: By.cssSelector: input[name="txtID"]]
+14:14:40.740 INFO - Executing: [clear: 1 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtID"]]])
+14:14:40.757 INFO - Done: [clear: 1 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtID"]]]
+14:14:40.759 INFO - Executing: [find element: By.cssSelector: input[name="txtPwd"]])
+14:14:40.771 INFO - Done: [find element: By.cssSelector: input[name="txtPwd"]]
+14:14:40.773 INFO - Executing: [clear: 2 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtPwd"]]])
+14:14:40.788 INFO - Done: [clear: 2 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtPwd"]]]
+14:14:40.791 INFO - Executing: [find element: By.cssSelector: input[name="txtID"]])
+14:14:40.798 INFO - Done: [find element: By.cssSelector: input[name="txtID"]]
+14:14:40.801 INFO - Executing: [send keys: 1 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtID"]], [Y, u, i, 2, 5, 8, 7, 7]])
+14:14:40.837 INFO - Done: [send keys: 1 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtID"]], [Y, u, i, 2, 5, 8, 7, 7]]
+14:14:40.840 INFO - Executing: [find element: By.cssSelector: input[name="txtPwd"]])
+14:14:40.846 INFO - Done: [find element: By.cssSelector: input[name="txtPwd"]]
+14:14:40.848 INFO - Executing: [send keys: 2 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtPwd"]], [A, u, a, 1, 2, 3, 1, 2, 3]])
+14:14:40.886 INFO - Done: [send keys: 2 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="txtPwd"]], [A, u, a, 1, 2, 3, 1, 2, 3]]
+14:14:42.890 INFO - Executing: [find element: By.cssSelector: #btnLogOn])
+14:14:42.903 INFO - Done: [find element: By.cssSelector: #btnLogOn]
+14:14:42.905 INFO - Executing: [click: 3 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #btnLogOn]])
+14:14:47.060 INFO - Done: [click: 3 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #btnLogOn]]
+14:14:49.062 INFO - Executing: [get title])
+14:14:49.067 INFO - Done: [get title]
+14:14:49.069 INFO - Executing: [find element: By.cssSelector: #ctl00_ctl00_C_CW_gvDepositAccts_ctl02_lblAcctBal])
+14:14:49.081 INFO - Done: [find element: By.cssSelector: #ctl00_ctl00_C_CW_gvDepositAccts_ctl02_lblAcctBal]
+14:14:49.084 INFO - Executing: [get text: 4 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_gvDepositAccts_ctl02_lblAcctBal]])
+14:14:49.099 INFO - Done: [get text: 4 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_gvDepositAccts_ctl02_lblAcctBal]]
+14:14:49.101 INFO - Executing: [find element: By.cssSelector: #lnkTransfers])
+14:14:49.113 INFO - Done: [find element: By.cssSelector: #lnkTransfers]
+14:14:49.114 INFO - Executing: [click: 5 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #lnkTransfers]])
+14:14:50.256 INFO - Done: [click: 5 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #lnkTransfers]]
+14:14:55.258 INFO - Executing: [find element: By.cssSelector: #ctl00_ctl00_C_CW_ddlFromAccountList > optgroup > option])
+14:14:55.272 INFO - Done: [find element: By.cssSelector: #ctl00_ctl00_C_CW_ddlFromAccountList > optgroup > option]
+14:14:55.274 INFO - Executing: [click: 6 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_ddlFromAccountList > optgroup > option]])
+14:14:55.299 INFO - Done: [click: 6 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_ddlFromAccountList > optgroup > option]]
+14:15:00.302 INFO - Executing: [find element: By.cssSelector: #ctl00_ctl00_C_CW_ddlToAccountList > optgroup:nth-child(4) > option:nth-child(1)])
+14:15:00.315 INFO - Done: [find element: By.cssSelector: #ctl00_ctl00_C_CW_ddlToAccountList > optgroup:nth-child(4) > option:nth-child(1)]
+14:15:00.317 INFO - Executing: [click: 7 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_ddlToAccountList > optgroup:nth-child(4) > option:nth-child(1)]])
+14:15:00.341 INFO - Done: [click: 7 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_ddlToAccountList > optgroup:nth-child(4) > option:nth-child(1)]]
+14:15:00.344 INFO - Executing: [find element: By.cssSelector: #ctl00_ctl00_C_CW_ddlToAccountList])
+14:15:00.356 INFO - Done: [find element: By.cssSelector: #ctl00_ctl00_C_CW_ddlToAccountList]
+14:15:00.358 INFO - Executing: [get text: 8 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_ddlToAccountList]])
+14:15:00.398 INFO - Done: [get text: 8 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_ddlToAccountList]]
+14:15:00.402 INFO - Executing: [find element: By.cssSelector: input[name="ctl00$ctl00$C$CW$txtAmount"]])
+14:15:00.414 INFO - Done: [find element: By.cssSelector: input[name="ctl00$ctl00$C$CW$txtAmount"]]
+14:15:00.416 INFO - Executing: [send keys: 9 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="ctl00$ctl00$C$CW$txtAmount"]], [4]])
+14:15:00.453 INFO - Done: [send keys: 9 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="ctl00$ctl00$C$CW$txtAmount"]], [4]]
+14:15:00.455 INFO - Executing: [find element: By.cssSelector: #ctl00_ctl00_C_CW_txtAmount])
+14:15:00.466 INFO - Done: [find element: By.cssSelector: #ctl00_ctl00_C_CW_txtAmount]
+14:15:00.468 INFO - Executing: [get element attribute: 9 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="ctl00$ctl00$C$CW$txtAmount"]], value])
+14:15:00.473 INFO - Done: [get element attribute: 9 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: input[name="ctl00$ctl00$C$CW$txtAmount"]], value]
+14:15:00.475 INFO - Executing: [find element: By.cssSelector: #ctl00_ctl00_C_CW_btnNext])
+14:15:00.514 INFO - Done: [find element: By.cssSelector: #ctl00_ctl00_C_CW_btnNext]
+14:15:00.514 INFO - Executing: [click: 10 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_btnNext]])
+14:15:03.742 INFO - Done: [click: 10 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_btnNext]]
+14:15:08.743 INFO - Executing: [find element: By.cssSelector: #ctl00_ctl00_C_CW_btnConfirm])
+14:15:08.756 INFO - Done: [find element: By.cssSelector: #ctl00_ctl00_C_CW_btnConfirm]
+14:15:08.758 INFO - Executing: [click: 11 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_btnConfirm]])
+14:15:11.837 INFO - Done: [click: 11 [[ChromeDriver: chrome on XP (b0e5178d8c641363a4bb5eb288eb6c06)] -> css selector: #ctl00_ctl00_C_CW_btnConfirm]]
+14:15:11.840 INFO - Executing: [take screenshot])
+14:15:12.066 INFO - Done: [take screenshot]
+14:15:15.085 INFO - Executing: [delete session: ac66ab89-da3b-4934-b36f-c99ee9671821])
+14:15:15.854 INFO - Done: [delete session: ac66ab89-da3b-4934-b36f-c99ee9671821]
